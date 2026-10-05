@@ -25,6 +25,8 @@ jobs:
 
       - name: Build React application
         run: npm run build
+        env:
+            VITE_APP_ENV: ${{ vars.APP_ENV }}
       
       - name: Deploy to DEV
         uses: peaceiris/actions-gh-pages@v4
