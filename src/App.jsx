@@ -17,6 +17,7 @@ function App() {
         </div>
         <div>
           <h1>Get started</h1>
+           <p>Environment: {import.meta.env.VITE_APP_ENV}</p>
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
